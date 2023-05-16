@@ -1,17 +1,17 @@
 export default function Signature() {
   return (
     <>
-      <p className="absolute top-10 left-10 z-10 text-white">
+      <a href="https://tfg-docs.vercel.app/" target="_blank" className="absolute top-10 left-10 z-10 text-white hover:underline">
         <p>Bachelor's Thesis</p>
         <p>Interactive 3D components</p>
-      </p>
+      </a>
 
       <p className="absolute right-10 bottom-10 z-10 space-y-5 text-white">26/10/2022</p>
 
       <a
         href="https://randreu.dev"
         target="_blank"
-        className="absolute bottom-10 left-10 z-10 max-w-xl flex gap-5 text-white"
+        className="absolute bottom-10 left-10 z-10 max-w-xl flex gap-5 text-white hover:underline"
       >
         <svg
           className="text-white fill-current h-10 w-fit"
